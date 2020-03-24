@@ -2,13 +2,30 @@
 layout: page
 title: Archive
 permalink: /archive/
+tipue_search_active: true
+exclude_from_search: true
 ---
+<head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script src="tipuesearch/tipuesearch_content.js"></script>
+<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css">
+<script src="tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch/tipuesearch.min.js"></script>
+</head>
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
 <ul class="archive">
+<form>
+<div class="tipue_search_group">
+<input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+</div>
+</form>
+<div id="tipue_search_content"></div>
+<br>
   {% for post in site.posts %}
     {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
@@ -32,3 +49,8 @@ permalink: /archive/
     </li>
   {% endfor %}
 </ul>
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>

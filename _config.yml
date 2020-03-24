@@ -25,12 +25,13 @@ navigation:
     url: /
   - name: About
     url: /about
+  - name: Team
+    url: /team
   - name: Archive
     url: /archive
   - name: Tags
     url: /tags
-  - name: Team
-    url: /team
+
 
 # Pagination
 paginate: 5
