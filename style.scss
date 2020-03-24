@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font: 19px/1.4 $body-font-family;
+  // font: 19px/1.4 $body-font-family;
   color: $base-color;
   line-height: 1.6;
 }
@@ -377,7 +377,7 @@ img {
 nav {
   float: left;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-size: 18px;
+  font-size: 15px;
 
   @include mobile {
     float: none;
