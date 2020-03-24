@@ -21,7 +21,7 @@ html {
 
 body {
   display: flex;
-  font-family: $base-font;
+  font: 19px/1.4 $base-font-family;
   color: $base-color;
   line-height: 1.6;
 }
