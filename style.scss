@@ -605,6 +605,7 @@ footer {
 
 .kufi-font-loaded {
   h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; }
+  .site-info             { font-family: $heading-font-family; }
   .site-name             { font-family: $heading-font-family; }
   nav                    { font-family: $heading-font-family; }
   .read-more             { font-family: $heading-font-family; }
