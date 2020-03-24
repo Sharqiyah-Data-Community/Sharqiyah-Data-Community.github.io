@@ -18,6 +18,12 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$base-font-family: Helvetica, Arial, sans-serif;
+$heading-font-family: Noto Kufi Arabic, $base-font-family;
+$body-font-family: Noto Naskh Arabic, $base-font-family;
+
+$monospace-font-family: Bitstream Vera Sans Mono, Courier, monospace;
+$code-font-family: Kawkab Mono, $monospace-font-family;
 
 // Fonts
 $base-font: 'Spoqa Han Sans', 'Source Sans Pro', 'Apple SD Gothic Neo', 'Nanum Barun Gothic', 'Nanum Gothic', 'Verdana', 'Arial', 'Dotum', sans-serif;
