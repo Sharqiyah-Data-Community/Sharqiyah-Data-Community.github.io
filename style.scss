@@ -28,7 +28,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 950px;
   padding: 0 10px;
   width: 100%;
 }
@@ -346,7 +346,7 @@ img {
 
 .site-info {
   float: right;
-  padding-top: 10px;
+  padding-top: 7px;
   padding-right: 10px;
 
   @include mobile {
@@ -361,7 +361,7 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 1px;
 }
 
@@ -378,13 +378,13 @@ img {
 nav {
   float: left;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-size: 15px;
+  font-size: 14px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   a {
