@@ -3,11 +3,11 @@
 #
 
 # Name of your site (displayed in the header)
-name: Sharqiyah Data Community
+name: مجتمع الشرقية للبيانات
 
 
 # Short bio or description (displayed in the header)
-description: Non-profit organization for data enthusiasts
+description: مجتمع غير ربحي للشغوفين بالبيانات لتسهيل التواصل وتبادل الخبرات
 
 #
 # Flags below are optional
@@ -21,17 +21,16 @@ avatar: https://avatars1.githubusercontent.com/u/62389772?s=200&v=4
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
-    url: /
-  - name: About
-    url: /about
-  - name: Team
-    url: /team
-  - name: Archive
+  - name: الأرشيف
     url: /archive
-  - name: Tags
+  - name: الوسوم
     url: /tags
-
+  - name: فريق الشرقية
+    url: /team
+  - name: عن المجموعة
+    url: /about
+  - name: المدونة
+    url: /
 
 # Pagination
 paginate: 5
