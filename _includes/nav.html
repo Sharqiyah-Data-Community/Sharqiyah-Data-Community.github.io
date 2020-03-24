@@ -11,13 +11,18 @@
       </div>
 
       <nav>
-        {% for nav in site.navigation %}
+        <!-- {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
         <a href="{{ nav.url }}">{{ nav.name }}</a>
         {% else %}
         <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
         {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+        <a href="{{ site.baseurl }}">المدونة</a>
+        <a href="{{ site.baseurl }}/about">عن المجموعة</a>
+        <a href="{{ site.baseurl }}/team">فريق الشرقية</a>
+        <a href="{{ site.baseurl }}/tags">الوسوم</a>
+        <a href="{{ site.baseurl }}/archive">الأرشيف</a>
       </nav>
     </header>
   </div>
