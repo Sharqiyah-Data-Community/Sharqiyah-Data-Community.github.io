@@ -29,13 +29,14 @@ permalink: /tags/
         {% if post.title != null %}
           <li>
             {% if post.link %}
+              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
               <a href="{{ post.link }}">
             {% else %}
+              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
               <a href="{{ site.baseurl }}{{ post.url }}">
             {% endif %}
                 {{ post.title }}
               </a>
-              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
           </li>
         {% endif %}
       {% endfor %}
