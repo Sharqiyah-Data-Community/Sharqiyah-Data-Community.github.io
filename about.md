@@ -1,6 +1,6 @@
 ---
 layout: page
-title: عن المجموعة الشرقية للبيانات
+title: عن مجموعة الشرقية للبيانات
 permalink: /about/
 ---
 
