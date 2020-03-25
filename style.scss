@@ -593,7 +593,9 @@ footer {
     }
   }
 }
-
+.highlight, code {
+  direction: ltr;
+}
 //
 // FOUT fonts
 //
