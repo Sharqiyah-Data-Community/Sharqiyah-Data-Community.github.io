@@ -515,7 +515,7 @@ nav {
 
     > a {
       display: inline-block;
-      margin: 1px;
+      margin: 5px;
       color: $tag-index-label-color;
       background-color: $tag-index-label-background-color;
       border-radius: 3px;
@@ -535,13 +535,16 @@ nav {
 
 .tags > .tag {
   a {
+    margin-right: 20px;
     color: $base-color;
+	
   }
   time {
     color: $base-lighten-color;
     font-size: $small-font-size;
     font-weight: 300;
     margin-left: 3px;
+    margin-right: 30px;
   }
 }
 
