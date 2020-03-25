@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "التعرف على مكتبة Pandas"
-tags: [علم البيانات , تحليل البيانات، pandas, بايثون]
+tags: [علم البيانات , تحليل البيانات, pandas, بايثون]
 comments: true
 ---
 
