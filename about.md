@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: عن المجموعة الشرقية للبيانات
 permalink: /about/
 ---
 
-Some information about you!
+مجتمع غير ربحي للشغوفين بالبيانات لتسهيل التواصل وتبادل الخبرات
 
-### More Information
+### تواصلوا معنا
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[data.sharqiyah@gmail.com](mailto:data.sharqiyah@gmail.com)
