@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "التعرف على مكتبة Pandas و هي الأهم المكتبات المستخدمة لتحليل البيانات بإستخدام لغة Python"
-tags: [علم البيانات , تحليل البيانات، pandas, python]
+title: "التعرف على مكتبة Pandas"
+tags: [علم البيانات , تحليل البيانات، pandas, بايثون]
 comments: true
 ---
 
