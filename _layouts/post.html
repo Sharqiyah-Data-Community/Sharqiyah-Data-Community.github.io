@@ -6,12 +6,12 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div>
-    <span>
+    {% comment %} <span>
       {% assign author = site.data.authors[page.author] %}
       {% if author %}
         كُتب بواسطة: <a href="{{ author.web }}">{{ author.name }}</a>
       {% endif %}
-    </span>
+    </span> {% endcomment %}
     <span class="date">
       {{ page.date | date: "%Y-%m-%d" }}
     </span>
@@ -47,6 +47,7 @@ layout: default
       </span>
     {% endif %}
   </div>
-
+  {% assign author = site.authors[page.author] %}
+  {% include  author.html %}
   {% include disqus.html %}
 </article>
