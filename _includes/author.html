@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://fontawesome.com/v4.7.0/assets/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="w3-card-2">
 <div id="author-content">
@@ -7,23 +7,15 @@
         {% assign author = site.data.authors[page.author] %}
         <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
         {% if author %}
-            <a href="{{ author.web }}">{{ author.name }}</a>
             <img itemprop="image" id="image-author" src="{{ site.baseurl }}/images/authors/{{ author.gravatar }}">
             <div id="about-author">{{ author.about }}</div>
-            {% comment %} {% assign socials = site.data.authors[page.author.social] %} {% endcomment %}
-            {% for auth in site.data.authors[page.author] %}
-            {% comment %} <div id="social-author">
-                <a href="{{ author.facebook }}" ><i class=""></i></a>
-                <a href="{{ author.linkedin }}" ><i class=""></i></a>
-                <a href="{{ author.twitter }}" ><i class=""></i></a>
-                <a href="{{ author.github }}" ><i class=""></i></a>
-                <a href="{{ author.email }}" ><i class=""></i></a>
-                <a href="{{ author.website }}" ><i class=""></i></a>
-            </div> {% endcomment %}
-                {% for social_site in site.data.social[auth.social] %}
-                <li>social_site</li>
-                {% endfor %}
-            {% endfor %}
+            <div id="social-author">
+                {% if author.social.linkedin %} <a href="{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
+                {% if author.social.github %} <a href="{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
+                {% if author.social.twitter %} <a href="{{ author.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
+                {% if author.social.email %} <a href="{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
+                {% if author.social.website %} <a href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
+            </div>
         {% endif %}
     </div>
 </div>

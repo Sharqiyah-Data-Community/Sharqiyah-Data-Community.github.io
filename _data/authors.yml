@@ -1,21 +1,33 @@
-# Author details.
+# Authors details.
+# To add new author, please follow the following template:
+#
+#
+# author_short_name:
+#   display_name:
+#   about:
+#   social:
+#       email: mailto: 'remove (mailto:) if no email'
+#       website: 
+#       twitter:
+#       github:
+#       linkedin:
+#   gravatar:
+
 ali:
     display_name: علي العوهلي
     about: علي العوهلي، خريج علوم حاسب مهتم بالبرمجة وعلم البيانات.
     social:
         email: 
         website: https://www.alioh.com/
-        facebook:
         twitter: https://twitter.com/alioh
         github: https://github.com/alioh
         linkedin: https://www.linkedin.com/in/AliOh
-        gravatar: ali.png
+    gravatar: ali.png
 najla:
     display_name: نجلاء الباز
     about:
     email:
     website: https://twitter.com/Najlation
-    facebook:
     twitter:
     github:
     linkedin:
@@ -25,7 +37,6 @@ areej:
     about:
     email:
     website: https://twitter.com/Jeji__7
-    facebook:
     twitter:
     github:
     linkedin:
