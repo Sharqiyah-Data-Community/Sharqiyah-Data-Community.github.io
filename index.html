@@ -14,12 +14,12 @@ layout: default
       </h1>
 
       <div>
-        <span>
           {% assign author = site.data.authors[page.author] %}
           {% if author %}
-            كُتب بواسطة: <a href="{{ author.web }}">{{ author.name }}</a>
+            <span>
+              كُتب بواسطة: <a href="{{ author.web }}">{{ author.name }}</a>
+            </span>
           {% endif %}
-        </span>
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
