@@ -11,7 +11,7 @@
             <img itemprop="image" id="image-author" src="{{ site.baseurl }}/images/authors/{{ author.gravatar }}">
             <div id="about-author">{{ author.about }}</div>
             {% comment %} {% assign socials = site.data.authors[page.author.social] %} {% endcomment %}
-            {% for social in site.data.authors[page.author].social %}
+            {% for auth in site.data.authors[page.author] %}
             {% comment %} <div id="social-author">
                 <a href="{{ author.facebook }}" ><i class=""></i></a>
                 <a href="{{ author.linkedin }}" ><i class=""></i></a>
@@ -20,7 +20,7 @@
                 <a href="{{ author.email }}" ><i class=""></i></a>
                 <a href="{{ author.website }}" ><i class=""></i></a>
             </div> {% endcomment %}
-                {% for social_site in site.data.social[social] %}
+                {% for social_site in site.data.social[auth.social] %}
                 <li>social_site</li>
                 {% endfor %}
             {% endfor %}
