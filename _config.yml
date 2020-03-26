@@ -31,7 +31,10 @@ avatar: https://raw.githubusercontent.com/Sharqiyah-Data-Community/sharqiyah-dat
 #     url: /team
 #   - name: عن المجموعة
 #     url: /about
-
+collections:
+  authors:
+    title: Authors
+    output: true
 
 # Pagination
 paginate: 5
@@ -60,7 +63,7 @@ footer-text: 2020 © مجتمع الشرقية للبيانات
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: sharqiyah-data-community.disqus.com
+disqus: sharqiyah-data-community
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
