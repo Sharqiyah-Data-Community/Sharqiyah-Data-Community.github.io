@@ -5,6 +5,7 @@
 # author_short_name:
 #   display_name:
 #   about:
+#   gender: M or F
 #   social:
 #       email: mailto: 'remove (mailto:) if no email'
 #       website: 
@@ -15,6 +16,7 @@
 
 ali:
     display_name: علي العوهلي
+    gender: M
     about: علي العوهلي، خريج علوم حاسب مهتم بالبرمجة وعلم البيانات.
     social:
         email: 
@@ -25,19 +27,23 @@ ali:
     gravatar: ali.png
 najla:
     display_name: نجلاء الباز
+    gender: F
     about:
-    email:
-    website: https://twitter.com/Najlation
-    twitter:
-    github:
-    linkedin:
+    social:
+        email:
+        website: https://twitter.com/Najlation
+        twitter:
+        github:
+        linkedin:
     gravatar:
 areej:
-    display_name: أريج أحمد
+    display_name: أريج الشاهين
+    gender: F
     about:
-    email:
-    website: https://twitter.com/Jeji__7
-    twitter:
-    github:
-    linkedin:
+    social:
+        email:
+        website: https://twitter.com/Jeji__7
+        twitter:
+        github:
+        linkedin:
     gravatar:
