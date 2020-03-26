@@ -91,7 +91,7 @@ df.describe()
 # 3. List of columns headers
 df.columns.values
 ```
-![Center example image](../images/pandas-1.png "Pandas example"){: .center-image}
+![Center example image](../images/2020-03-25-py-pandas-library/pandas-1.png "Pandas example"){: .center-image}
 
 ## إختيار البيانات
 
@@ -109,7 +109,7 @@ df[columns_to_be_selected]
 # 3. إعادة ترتيب الأعمدة بالمسميات المختارة سابقًا
 df.loc[columns_to_be_selected]
 ```
-![Center example image](../images/pandas-2.png "Pandas example"){: .center-image}
+![Center example image](../images/2020-03-25-py-pandas-library/pandas-2.png "Pandas example"){: .center-image}
 
 ##### الصفوف او Columns
 
@@ -122,7 +122,7 @@ df.iloc[0:3, :]
 row_index_to_select = [0, 1, 4, 5]
 df.loc[row_index_to_select]
 ```
-![Center example image](../images/pandas-3.png "Pandas example"){: .center-image}
+![Center example image](../images/2020-03-25-py-pandas-library/pandas-3.png "Pandas example"){: .center-image}
 
 ## تصفية البيانات
 
@@ -183,7 +183,7 @@ df.groupby(["Country", "Region"]).agg(
                       'Quantity':'mean'})
 ```
 
-![Center example image](../images/pandas-4.png "Pandas example"){: .center-image}
+![Center example image](../images/2020-03-25-py-pandas-library/pandas-4.png "Pandas example"){: .center-image}
 
 ## المصادر
 
