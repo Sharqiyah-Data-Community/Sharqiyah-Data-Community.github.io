@@ -464,7 +464,7 @@ nav {
   display: inline-block;
 
   @include mobile {
-    font-size: $small-font-size;
+    font-size: 0.8em;
   }
 
   > .prev {
@@ -602,20 +602,34 @@ footer {
 }
 
 div#author-content {
+  margin-top: 2em;
   width:90%;
   margin:0 auto;
   padding-bottom: 35px;
 }
 
-img#image-author {
-  margin-left: 0px;
-  margin-top: 10px;
+#author-image-box{
+    width: 30%;
+    float: left;
+}
+
+#author-info{
+    width: 60%;
+    float: right;
+}
+
+#image-author {
+  width: 7em;
   float: left;
 }
 
 #social-author {
-  float:right;    
+    text-align: right;
+}
 
+#about-author {
+    font-size: 0.9em;
+	margin-top: 0.5em;
 }
 
 #im-ab {
@@ -623,7 +637,7 @@ img#image-author {
 }
 
 .fa {
-	color: black;
+	color: $base-color;
 }
 
 //
@@ -659,4 +673,8 @@ img#image-author {
 #names{
     width: 50%;
     float: right;
+}
+
+#post-author {
+    font-size: 0.9em;
 }
