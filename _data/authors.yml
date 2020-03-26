@@ -2,13 +2,14 @@
 ali:
     display_name: علي العوهلي
     about: علي العوهلي، خريج علوم حاسب مهتم بالبرمجة وعلم البيانات.
-    email: 
-    website: https://www.alioh.com/
-    facebook:
-    twitter: https://twitter.com/alioh
-    github: https://github.com/alioh
-    linkedin: https://www.linkedin.com/in/AliOh
-    gravatar: ali.png
+    social:
+        email: 
+        website: https://www.alioh.com/
+        facebook:
+        twitter: https://twitter.com/alioh
+        github: https://github.com/alioh
+        linkedin: https://www.linkedin.com/in/AliOh
+        gravatar: ali.png
 najla:
     display_name: نجلاء الباز
     about:
