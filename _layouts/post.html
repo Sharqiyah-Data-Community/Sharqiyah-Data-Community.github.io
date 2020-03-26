@@ -30,7 +30,8 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-
+  {% assign author = site.authors[page.author] %}
+  {% include  author.html %}
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
@@ -47,7 +48,5 @@ layout: default
       </span>
     {% endif %}
   </div>
-  {% assign author = site.authors[page.author] %}
-  {% include  author.html %}
   {% include disqus.html %}
 </article>
