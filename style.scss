@@ -127,7 +127,7 @@ ol, ul {
 
 ul {
   > li:before {
-    content: "\2022";
+    content: "•";
     padding-right: $ul-bullets-right-space;
     font-family: $ul-bullets-font;
     font-size: $ul-bullets-font-size;
@@ -141,7 +141,7 @@ ol {
 
   > li:before {
     counter-increment: section;
-    content: counter(section) ".";
+    content: "";
     padding-right: $ol-bullets-right-space;
     font-family: $ol-bullets-font;
     font-size: $ol-bullets-font-size;
@@ -153,6 +153,8 @@ ol, ul {
   > li {
     margin: 0 auto $li-bottom-space $li-bullets-width;
     line-height: $li-line-height;
+    padding-right: 1em;
+    margin-right: 1em;
 
     > ol,
     > ul {
@@ -536,7 +538,6 @@ nav {
 
 .tags > .tag {
   a {
-    margin-right: 20px;
     color: $base-color;
 	
   }
@@ -545,7 +546,6 @@ nav {
     font-size: $small-font-size;
     font-weight: 300;
     margin-left: 3px;
-    margin-right: 30px;
   }
 }
 
