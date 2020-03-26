@@ -1,14 +1,23 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="w3-card-2">
-<div id="author-content">
-    <h3>الكاتب</h3>
-    <hr>
+    <div id="author-content">
         {% assign author = site.data.authors[page.author] %}
-        <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
         {% if author %}
+        {% if author.gender == "F" %}
+        <h2>الكاتبة</h2>
+        {% endif %}
+        {% if author.gender == "M" %}
+        <h2>الكاتب</h2>
+        {% endif %}
+        <hr>
+        {% if author.gravatar %}
+        <div id="author-image-box">
             <img itemprop="image" id="image-author" src="{{ site.baseurl }}/images/authors/{{ author.gravatar }}">
-            <div id="about-author">{{ author.about }}</div>
+        </div>
+        {% endif %}
+        <div id="author-info">
+            <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
             <div id="social-author">
                 {% if author.social.linkedin %} <a href="{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
                 {% if author.social.github %} <a href="{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
@@ -16,6 +25,8 @@
                 {% if author.social.email %} <a href="{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
                 {% if author.social.website %} <a href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
             </div>
+            <div id="about-author">{{ author.about }}</div>
+        </div>
         {% endif %}
     </div>
 </div>
