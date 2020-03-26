@@ -1,6 +1,6 @@
 ---
 layout: page
-title: عن مجموعة الشرقية للبيانات
+title: عن مجتمع الشرقية للبيانات
 permalink: /about/
 ---
 
