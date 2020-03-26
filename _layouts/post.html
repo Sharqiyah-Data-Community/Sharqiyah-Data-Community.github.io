@@ -7,10 +7,13 @@ layout: default
 
   <div>
     <span>
-      {% assign author = site.data.authors[page.author] %}
+      {% comment %} {% assign author = site.data.authors[page.author] %} {% endcomment %}
+      {% for author in page.author%}
+      كُتب بواسطة: 
       {% if author %}
-        كُتب بواسطة: <a href="{{ author.web }}">{{ author.name }}</a>
+        <a href="{{ author.web }}">{{ author.name }}</a>
       {% endif %}
+      {% endfor %}
     </span>
     <span class="date">
       {{ page.date | date: "%Y-%m-%d" }}
