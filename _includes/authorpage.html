@@ -1,13 +1,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+{% if page.author %}
+{% for a in page.author %}
+{% assign author = site.data.authors[a] %}
+{% if {{author.gender}} == "F" %}
+<h1>الكاتبة</h1>
+{% else %}
+<h1>الكاتب</h1>
+{% endif %}
 <div class="w3-card-2">
-    <div id="author-content">
-        {% if page.author %}
-            {% for a in page.author %}
-            {% assign author = site.data.authors[a] %}
+    <div id="author-content-page">
             <div id="author-box">
                 <div id="author-page-info">
                     <div itemprop="author" id="name-author">
-                        <h2>{{ author.display_name }}</h2>
+                        <h2 id="author-name">{{ author.display_name }}</h2>
                     </div>
                     <div id="social-author">
                         <strong>تواصل: </strong>
@@ -17,6 +22,7 @@
                         {% if author.social.email %} <a href="{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
                         {% if author.social.website %} <a href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
                     </div>
+                    <div id="about-author">{{ author.about }}</div>
                 </div>
                 {% if author.gravatar %}
                     <div id="author-page-image-box">
@@ -24,16 +30,15 @@
                     </div>
                 {% endif %}
             </div>
-            <div id="about-author">{{ author.about }}</div>
             {% endfor %}
             {% assign posts = site.posts | where: "author", page.author %}
             
-            <br><h2>مقالات {{site.data.authors[page.author].display_name}}:</h2>
+            <h2>المقالات:</h2>
             <div class="tags">
             {% for post in posts %}
-                <ul class="tag">
-                •  <a href="{{ site.baseurl }}{{ post.url }}"> {{post.title}} </a>
-                </ul>
+                <li>
+                <a href="{{ site.baseurl }}{{ post.url }}"> {{post.title}} </a>
+                </li>
             {% endfor %}
             </div>
         {% endif %}
