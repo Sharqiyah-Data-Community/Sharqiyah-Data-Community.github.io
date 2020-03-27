@@ -5,9 +5,9 @@
         {% if page.author %}
             {% if page.author.size == 1 %}
                 {% if site.data.authors[page.author[0]].gender == "F" %}
-                    <h2>الكاتبة</h2>
-                {% else %}
                     <h2>الكاتب</h2>
+                {% else %}
+                    <h2>الكاتبة</h2>
                 {% endif %}
             {% else %}
                 <h2>الكاتبون</h2>
