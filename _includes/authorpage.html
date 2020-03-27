@@ -1,8 +1,3 @@
----
-layout: default
-{% comment %} author: write author name here and uncomment, save the page as new page with the same author name, this name should be similar to the one in authors.yml (not display_name) {% endcomment %}
----
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <div class="w3-card-2">
     <div id="author-content">
@@ -32,7 +27,8 @@ layout: default
             <div id="about-author">{{ author.about }}</div>
             {% endfor %}
             {% assign posts = site.posts | where: "author", page.author %}
-            <br>
+            
+            <br><h2>مقالات {{site.data.authors[page.author].display_name}}:</h2>
             <div class="tags">
             {% for post in posts %}
                 <ul class="tag">

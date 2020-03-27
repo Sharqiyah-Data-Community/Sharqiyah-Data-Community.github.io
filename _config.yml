@@ -113,3 +113,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+includes:
+  - authors
