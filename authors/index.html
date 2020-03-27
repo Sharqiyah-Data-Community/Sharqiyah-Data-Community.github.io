@@ -1,0 +1,15 @@
+---
+layout: page
+title: قائمة الكُتَّاب
+permalink: /authors/
+---
+
+<div class="tags">
+  {% for a in site.data.authors %}
+    {% assign author = a[1] %}
+    <ul class="tag">
+      • <a href="{{ site.baseurl }}/authors/{{ a[0] }}"> {{author.display_name}} </a>
+    </ul>
+  {% endfor %}
+</div>
+

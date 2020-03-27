@@ -402,6 +402,37 @@ nav {
   }
 }
 
+header > nav > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+header > nav > a:hover {
+  color: #000;
+}
+
+header > nav > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header > nav > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 // Posts
 .posts > .post {
   padding-bottom: 2em;
@@ -627,6 +658,21 @@ div#author-content {
   float: left;
 }
 
+#author-page-image-box{
+  width: 30%;
+  float: right;
+}
+
+#image-page-author {
+width: 7em;
+float: right;
+}
+
+#author-page-info{
+  width: 60%;
+  float: left;
+}
+
 #social-author {
     text-align: right;
 }
@@ -643,6 +689,8 @@ div#author-content {
 .fa {
 	color: $base-color;
 }
+
+
 
 //
 // FOUT fonts
