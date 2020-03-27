@@ -3,7 +3,7 @@ layout: post
 title: "التعرف على مكتبة Pandas"
 tags: [علم البيانات , تحليل البيانات, pandas, بايثون]
 comments: true
-author: areej
+author: [areej]
 ---
 
 بداية وعند إستخدام أي مكتبة لتحليل البيانات ستحتاج لفهم بياناتك جيدًا، 
