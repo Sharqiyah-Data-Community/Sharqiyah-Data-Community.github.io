@@ -14,9 +14,12 @@ layout: default
       </h1>
 
       <div>
-        {% assign author = site.data.authors[post.author] %}
-        {% if author %}
-        <span itemprop="author" id="post-author">كُتب بواسطة: {{ author.display_name }}</span>
+        {% if post.author %}
+        <span itemprop="author" id="post-author">كُتب بواسطة:
+        {% for a in post.author %}
+        {% assign author = site.data.authors[a] %}
+        {{ author.display_name }} {% if forloop.last == false %}, {% endif %}
+            {% endfor %}</span>
         {% endif %}
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
