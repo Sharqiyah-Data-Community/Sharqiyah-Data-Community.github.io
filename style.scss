@@ -632,15 +632,33 @@ footer {
   direction: ltr;
 }
 
+
 div#author-content {
-  margin-top: 2em;
+  margin-top: 5em;
   width:90%;
+  margin:0 auto;
+  border: 1px solid $divider-color;
+  padding: 0 1em;
+  border-radius: 0.3em;
+}
+
+div#author-content-page {
+  margin-top: 2em;
   margin:0 auto;
   padding-bottom: 35px;
 }
 
+#author-hr {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
 #author-box{
     overflow: hidden;
+}
+
+#author-name{
+    margin: 0;
 }
 
 #author-image-box{
@@ -660,17 +678,17 @@ div#author-content {
 
 #author-page-image-box{
   width: 30%;
-  float: right;
+  float: left;
 }
 
 #image-page-author {
-width: 7em;
+width: 10em;
 float: right;
 }
 
 #author-page-info{
   width: 60%;
-  float: left;
+  float: right;
 }
 
 #social-author {
@@ -689,8 +707,6 @@ float: right;
 .fa {
 	color: $base-color;
 }
-
-
 
 //
 // FOUT fonts
