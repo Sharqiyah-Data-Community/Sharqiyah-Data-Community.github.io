@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="w3-card-2">
-    <hr>
     <div id="author-content">
         {% if page.author %}
             {% if page.author.size == 1 %}
@@ -15,6 +14,7 @@
             {% else %}
                 <h2>الكُتَّاب</h2>
             {% endif %}
+        <hr id="author-hr">
         {% for a in page.author %}
         {% assign author = site.data.authors[a] %}
         <div id="author-box">
