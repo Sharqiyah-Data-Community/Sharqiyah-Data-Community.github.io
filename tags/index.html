@@ -25,7 +25,6 @@ permalink: /tags/
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2>
-    <ul class="tag">
       {% for post in tag[1] %}
         {% if post.title != null %}
           <li>
@@ -41,6 +40,5 @@ permalink: /tags/
           </li>
         {% endif %}
       {% endfor %}
-    </ul>
   {% endfor %}
 </div>
