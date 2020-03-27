@@ -12,14 +12,15 @@ layout: default
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
-
       <div>
         {% if post.author %}
         <span itemprop="author" id="post-author">كُتب بواسطة:
         {% for a in post.author %}
-        {% assign author = site.data.authors[a] %}
-        {{ author.display_name }} {% if forloop.last == false %}, {% endif %}
-            {% endfor %}</span>
+          {% assign author = site.data.authors[a] %}
+          <a href="{{ site.baseurl }}/authors/{{ a }}">{{ author.display_name }}</a> 
+          {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+          </span>
         {% endif %}
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
