@@ -12,11 +12,11 @@ members: [najla, ali, areej, Abdulelah, ghaidaa, abdullah, abdulmalik, najwa, ha
         <div id="name-info">
             <div id="member-name">{{ member.display_name }}</div>
             <div id="social-member">
-                {% if member.social.linkedin %} <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
-                {% if member.social.github %} <a href="https://github.com/{{ member.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
-                {% if member.social.twitter %} <a href="https://twitter.com/{{ member.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
-                {% if member.social.email %} <a href="mailto:{{ member.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
-                {% if amember.social.website %} <a href="{{ member.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
+                {% if member.social.linkedin %} <a target="_blank" href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
+                {% if member.social.github %} <a target="_blank" href="https://github.com/{{ member.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
+                {% if member.social.twitter %} <a target="_blank" href="https://twitter.com/{{ member.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
+                {% if member.social.email %} <a target="_blank" href="mailto:{{ member.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
+                {% if amember.social.website %} <a target="_blank" href="{{ member.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
             </div>
             <div id="about-member">{{ member.about }}</div>
         </div>
