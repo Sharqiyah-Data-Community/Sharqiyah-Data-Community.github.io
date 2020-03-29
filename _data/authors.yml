@@ -14,30 +14,6 @@
 #       linkedin: 
 #   gravatar: 
 
-ali:
-    display_name: علي العوهلي
-    gender: M
-    about: علي العوهلي، خريج علوم حاسب مهتم بالبرمجة وعلم البيانات.
-    social:
-        email: 
-        website: https://www.alioh.com/
-        twitter: alioh
-        github: alioh
-        linkedin: AliOh
-    gravatar: ali.png
-
-najla:
-    display_name: نجلاء الباز
-    gender: F
-    about:
-    social:
-        email:
-        website: Najlation
-        twitter:
-        github:
-        linkedin:
-    gravatar:
-
 areej:
     display_name: أريج الشاهين
     gender: F
@@ -49,19 +25,7 @@ areej:
         github: areejcs
         linkedin: areejiscoding
     gravatar:
-
-Abdulelah:
-    display_name: عبدالإله ال مسفر
-    gender: M
-    about: مهتم في بحوث العمليات والنمذجة
-    social: 
-        email: abdulelah.almesfer@gmail.com
-        website: 
-        twitter: abdulelahsm
-        github: abdulelahsm
-        linkedin: abdulelahalmesfer
-    gravatar: Abdulelah.jpg
-
+    
 ghaidaa:
     display_name: غيداء الكحيلي
     gender: M
@@ -72,18 +36,6 @@ ghaidaa:
         twitter: ghaidaa_
         github: 
         linkedin: 
-    gravatar: 
-
-abdullah:
-    display_name: عبدالله بابعير
-    gender: M
-    about: محلل نظم بشركة ارامكو ومهتم بالبيانات وريادة الأعمال
-    social: 
-        email: AbdullahMBabaier@gmail.com
-        website: 
-        twitter: 
-        github: 
-        linkedin: babaier
     gravatar: 
 
 abdulmalik:
@@ -97,28 +49,3 @@ abdulmalik:
         github: 
         linkedin: abdulmalik-alharbi
     gravatar: Abdulmalik.PNG
-
-najwa:
-    display_name: نجوى الغامدي
-    gender: F
-    about: ماجستير نظم المعلومات الحاسوبية، متخصصه في مجال تحليل البيانات وتعلم الآله.
-    social: 
-        email: najwa.h.alghamdi@gmail.com
-        website: 
-        twitter: 
-        github: 
-        linkedin: 
-    gravatar: 
-
-hadeel:
-    display_name: هديل الضبيبان
-    gender: F
-    about: مندفعة للتقنية، شغوفة بتحليل البيانات.
-    social: 
-        email: hadeeld97@gmail.com
-        website: 
-        twitter: hadeeld7
-        github: 
-        linkedin: hadeel-aldhubaiban-102990172
-    gravatar: 
-
