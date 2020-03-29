@@ -21,29 +21,43 @@ ali:
     social:
         email: 
         website: https://www.alioh.com/
-        twitter: https://twitter.com/alioh
-        github: https://github.com/alioh
-        linkedin: https://www.linkedin.com/in/AliOh
+        twitter: alioh
+        github: alioh
+        linkedin: AliOh
     gravatar: ali.png
+
 najla:
     display_name: نجلاء الباز
     gender: F
     about:
     social:
         email:
-        website: https://twitter.com/Najlation
+        website: Najlation
         twitter:
         github:
         linkedin:
     gravatar:
+
 areej:
     display_name: أريج الشاهين
     gender: F
     about:
     social:
         email:
-        website: https://twitter.com/Jeji__7
+        website: Jeji__7
         twitter:
         github:
         linkedin:
+    gravatar:
+
+Abdulelah:
+    display_name: عبدالإله ال مسفر
+    gender: M
+    about: مهتم في بحوث العمليات والنمذجة
+    social: 
+        email: abdulelah.almesfer@gmail.com
+        website: 
+        twitter: abdulelahsm
+        github: abdulelahsm
+        linkedin: abdulelahalmesfer
     gravatar:
