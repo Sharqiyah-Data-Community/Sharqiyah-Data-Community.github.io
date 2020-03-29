@@ -746,3 +746,58 @@ float: left;
 #post-author {
     font-size: 0.9em;
 }
+
+//Team page
+
+#names {
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+    margin: auto 0;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+#name-box {
+  width: 20em;
+  border: 1px solid $divider-color;
+  border-radius: 0.3em;
+  float: left;
+  margin: 1em;
+  padding: 1em;
+}
+
+#name-info {
+  width: 70%;
+  overflow: hidden;
+  float: right;
+}
+
+#member-name{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#social-member {
+  text-align: right;
+}
+
+#about-member {
+  font-size: 0.7em;
+margin-top: 0.5em;
+}
+
+#member-image-box{
+  width: 30%;
+  float: left;
+}
+
+#image-member{
+  width: 6em;
+}
+
+.entry {
+  overflow: hidden;
+}
