@@ -3,16 +3,16 @@
 # for social links, only add usernames.
 #
 # author_short_name:
-#   display_name:
-#   about:
+#   display_name: 
+#   about: 
 #   gender: M or F
-#   social:
+#   social: 
 #       email: 
 #       website: 
-#       twitter:
-#       github:
-#       linkedin:
-#   gravatar:
+#       twitter: 
+#       github: 
+#       linkedin: 
+#   gravatar: 
 
 ali:
     display_name: علي العوهلي
@@ -120,16 +120,4 @@ hadeel:
         twitter: hadeeld7
         github: 
         linkedin: hadeel-aldhubaiban-102990172
-    gravatar: 
-
-template:
-    display_name: 
-    gender: 
-    about: 
-    social: 
-        email: 
-        website: 
-        twitter: 
-        github: 
-        linkedin: 
     gravatar: 
