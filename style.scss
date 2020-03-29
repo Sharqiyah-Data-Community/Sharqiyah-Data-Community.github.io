@@ -655,6 +655,7 @@ div#author-content-page {
 
 #author-box{
     overflow: hidden;
+	margin-bottom: 1.5em;
 }
 
 #author-name{
@@ -662,13 +663,18 @@ div#author-content-page {
 }
 
 #author-image-box{
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
 #author-info{
-    width: 60%;
+    width: 75%;
     float: right;
+}
+
+#author-info-noavatar{
+  width: 100%;
+  float: right;
 }
 
 #image-author {
@@ -682,8 +688,8 @@ div#author-content-page {
 }
 
 #image-page-author {
-width: 10em;
-float: left;
+	width: 10em;
+	float: left;
 }
 
 #author-page-info{
@@ -697,7 +703,11 @@ float: left;
 
 #about-author {
     font-size: 0.9em;
-	margin-top: 0.5em;
+    margin-top: 0.5em;
+
+  @include mobile {
+    font-size: 0.6em;
+  }
 }
 
 #im-ab {
