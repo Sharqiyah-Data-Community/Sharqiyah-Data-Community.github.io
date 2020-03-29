@@ -23,13 +23,13 @@
             {% else %}
         <div id="author-info-noavatar">
           {% endif %}
-            <div itemprop="author" id="name-author"><strong><a href="{{ site.baseurl }}/authors/{{ a }}">{{ author.display_name }}</a></strong></div>
+            <div itemprop="author" id="name-author"><strong><a target="_blank" href="{{ site.baseurl }}/authors/{{ a }}">{{ author.display_name }}</a></strong></div>
             <div id="social-author">
-                {% if author.social.linkedin %} <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
-                {% if author.social.github %} <a href="https://github.com/{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
-                {% if author.social.twitter %} <a href="https://twitter.com/{{ author.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
-                {% if author.social.email %} <a href="mailto:{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
-                {% if author.social.website %} <a href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
+                {% if author.social.linkedin %} <a target="_blank" href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
+                {% if author.social.github %} <a target="_blank" href="https://github.com/{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
+                {% if author.social.twitter %} <a target="_blank" href="https://twitter.com/{{ author.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
+                {% if author.social.email %} <a target="_blank" href="mailto:{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
+                {% if author.social.website %} <a target="_blank" href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
             </div>
             <div id="about-author">{{ author.about }}</div>
         </div>
