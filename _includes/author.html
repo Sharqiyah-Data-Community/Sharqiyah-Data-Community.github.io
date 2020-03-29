@@ -18,8 +18,12 @@
         {% for a in page.author %}
         {% assign author = site.data.authors[a] %}
         <div id="author-box">
-        <div id="author-info">
-            <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
+          {% if author.gravatar %}
+          <div id="author-info">
+            {% else %}
+        <div id="author-info-noavatar">
+          {% endif %}
+            <div itemprop="author" id="name-author"><strong><a href="{{ site.baseurl }}/authors/{{ a }}">{{ author.display_name }}</a></strong></div>
             <div id="social-author">
                 {% if author.social.linkedin %} <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
                 {% if author.social.github %} <a href="https://github.com/{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
