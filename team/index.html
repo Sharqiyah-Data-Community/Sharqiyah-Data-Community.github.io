@@ -9,7 +9,11 @@ members: [najla, ali, areej, Abdulelah, ghaidaa, abdullah, abdulmalik, najwa, ha
     {% for m in page.members %}
     {% assign member = site.data.team[m] %}
     <div id="name-box">
-        <div id="name-info">
+        {% if member.gravatar %}
+          <div id="name-info">
+            {% else %}
+        <div id="name-info-noavatar">
+          {% endif %}
             <div id="member-name">{{ member.display_name }}</div>
             <div id="social-member">
                 {% if member.social.linkedin %} <a target="_blank" href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
