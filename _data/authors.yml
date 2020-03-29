@@ -1,13 +1,13 @@
 # Authors details.
 # To add new author, please follow the following template:
-#
+# for social links, only add usernames.
 #
 # author_short_name:
 #   display_name:
 #   about:
 #   gender: M or F
 #   social:
-#       email: mailto: 'remove (mailto:) if no email'
+#       email: 
 #       website: 
 #       twitter:
 #       github:
@@ -41,13 +41,13 @@ najla:
 areej:
     display_name: أريج الشاهين
     gender: F
-    about:
+    about: طالبة بكالوريس في مجال علوم الحاسب، مهتمة بتطوير نفسي و التعلم الذاتي. مصممة جرافيك ديزاين بشتى مجالاته. شغوفه بعلم البيانات وأجد نفسي في بعض التخصصات المختلفة بعلوم الحاسب.
     social:
-        email:
-        website: Jeji__7
-        twitter:
-        github:
-        linkedin:
+        email: areej.a.shaheen@gmail.com
+        website: 
+        twitter: Jeji__7
+        github: areejcs
+        linkedin: areejiscoding
     gravatar:
 
 Abdulelah:
@@ -60,4 +60,76 @@ Abdulelah:
         twitter: abdulelahsm
         github: abdulelahsm
         linkedin: abdulelahalmesfer
-    gravatar:
+    gravatar: Abdulelah.jpg
+
+ghaidaa:
+    display_name: غيداء الكحيلي
+    gender: M
+    about: Data Analyst interested in business process re-engineering 
+    social: 
+        email: arch.ghaidaa@gmail.com
+        website: 
+        twitter: ghaidaa_
+        github: 
+        linkedin: 
+    gravatar: 
+
+abdullah:
+    display_name: عبدالله بابعير
+    gender: M
+    about: محلل نظم بشركة ارامكو ومهتم بالبيانات وريادة الأعمال
+    social: 
+        email: AbdullahMBabaier@gmail.com
+        website: 
+        twitter: 
+        github: 
+        linkedin: babaier
+    gravatar: 
+
+abdulmalik:
+    display_name: عبدالملك الحربي
+    gender: M
+    about: مهندس صناعي من جامعة الملك فهد ، عملت لدى شركة Schlumberger في إدارة المواد تحت قسم سلاسل الإمداد خلال التدريب التعاوني ، وحاليا موظف في شركة أرامكو السعودية في قسم الـ Facilities Planning ضمن برنامج الميزانيّة والتكلفة. مهتم بتطبيقات علم البيانات وخصوصا تعلّم الآلة في مجالات مختلفة.
+    social: 
+        email: Abdulmalik.b.alharbi@gmail.com
+        website: 
+        twitter: MKD_888
+        github: 
+        linkedin: abdulmalik-alharbi
+    gravatar: Abdulmalik.PNG
+
+najwa:
+    display_name: نجوى الغامدي
+    gender: F
+    about: ماجستير نظم المعلومات الحاسوبية، متخصصه في مجال تحليل البيانات وتعلم الآله.
+    social: 
+        email: najwa.h.alghamdi@gmail.com
+        website: 
+        twitter: 
+        github: 
+        linkedin: 
+    gravatar: 
+
+hadeel:
+    display_name: هديل الضبيبان
+    gender: F
+    about: مندفعة للتقنية، شغوفة بتحليل البيانات.
+    social: 
+        email: hadeeld97@gmail.com
+        website: 
+        twitter: hadeeld7
+        github: 
+        linkedin: hadeel-aldhubaiban-102990172
+    gravatar: 
+
+template:
+    display_name: 
+    gender: 
+    about: 
+    social: 
+        email: 
+        website: 
+        twitter: 
+        github: 
+        linkedin: 
+    gravatar: 

@@ -21,10 +21,10 @@
         <div id="author-info">
             <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong></div>
             <div id="social-author">
-                {% if author.social.linkedin %} <a href="{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
-                {% if author.social.github %} <a href="{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
-                {% if author.social.twitter %} <a href="{{ author.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
-                {% if author.social.email %} <a href="{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
+                {% if author.social.linkedin %} <a href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
+                {% if author.social.github %} <a href="https://github.com/{{ author.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
+                {% if author.social.twitter %} <a href="https://twitter.com/{{ author.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
+                {% if author.social.email %} <a href="mailto:{{ author.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
                 {% if author.social.website %} <a href="{{ author.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
             </div>
             <div id="about-author">{{ author.about }}</div>
