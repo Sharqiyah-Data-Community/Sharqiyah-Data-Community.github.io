@@ -1,6 +1,7 @@
-# Authors details.
-# To add new author, please follow the following template:
+# Team members details.
+# To add new member, please follow the following template:
 # for social links, only add usernames.
+# About section should have ONE line
 #
 # short_name_in_english:
 #     display_name: 
@@ -148,8 +149,7 @@ abdulrahman:
 
 khalid:
     display_name: خالد مدني
-    about: طالب هندسة صناعية في جامعة الملك فهد.
-خلال مرحلتي الجامعية تطرقت لعلم تحليل البيانات في الكثير من المشاريع، مما حثني على التعمق في مجال تحليل البيانات وتعلم الأدوات المختلفة التي تساعدني على فهم البيانات، وقد اصبحت عضوا في مجتمع المنطقة الشرقية لتحليل البيانات لمساعدة ونشر ثقافة تحليل البيانات.
+    about: طالب هندسة صناعية في جامعة الملك فهد. خلال مرحلتي الجامعية تطرقت لعلم تحليل البيانات في الكثير من المشاريع، مما حثني على التعمق في مجال تحليل البيانات وتعلم الأدوات المختلفة التي تساعدني على فهم البيانات، وقد اصبحت عضوا في مجتمع المنطقة الشرقية لتحليل البيانات لمساعدة ونشر ثقافة تحليل البيانات.
     gender: M
     social:
         email: Khaled.r.madany@gmail.com
