@@ -2,17 +2,17 @@
 # To add new author, please follow the following template:
 # for social links, only add usernames.
 #
-# author_short_name:
-#   display_name: 
-#   about: 
-#   gender: M or F
-#   social: 
-#       email: 
-#       website: 
-#       twitter: 
-#       github: 
-#       linkedin: 
-#   gravatar: 
+# short_name_in_english:
+#     display_name: 
+#     about:
+#     gender: M or F
+#     social:
+#         email:
+#         website:
+#         twitter:
+#         github:
+#         linkedin:
+#     gravatar:
 
 areej:
     display_name: أريج الشاهين

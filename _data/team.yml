@@ -2,17 +2,17 @@
 # To add new author, please follow the following template:
 # for social links, only add usernames.
 #
-# author_short_name:
-#   display_name:
-#   about:
-#   gender: M or F
-#   social:
-#       email:
-#       website:
-#       twitter:
-#       github:
-#       linkedin:
-#   gravatar:
+# short_name_in_english:
+#     display_name: 
+#     about:
+#     gender: M or F
+#     social:
+#         email:
+#         website:
+#         twitter:
+#         github:
+#         linkedin:
+#     gravatar:
 
 ali:
     display_name: علي العوهلي
@@ -120,4 +120,53 @@ hadeel:
         twitter: hadeeld7
         github:
         linkedin: hadeel-aldhubaiban-102990172
+    gravatar:
+
+norah:
+    display_name: نوره الشويعر
+    about: بكالوريس نظم معلومات اداريه - ماجستير إداره أعمال تخصص دقيق علم بيانات.
+    gender: F
+    social:
+        email:
+        website:
+        twitter: NouraAlshuwayer
+        github:
+        linkedin: norah-alshuwaier-b7755aa1
+    gravatar:
+
+abdulrahman:
+    display_name: عبدالرحمن باشيخ
+    about: مهندس نظم صناعية. وفي فترة دراستي، ايقنت بأهمية اتخاذ القرار المبني على البينات، ومن خلال دراستي تعلمت أدوات مختلفة لتحليل البيانات. اهتمامي بأدوات التحليل خلاني انضم لمجتمع الشرقية للبيانات، اللي من خلاله نقدر نتعلم ونشارك المعرفة.
+    gender: M
+    social:
+        email: Abdullrahman.Basheikh@gmail.com
+        website:
+        twitter:
+        github:
+        linkedin: basheikh
+    gravatar:
+
+khalid:
+    display_name: خالد مدني
+    about: طالب هندسة صناعية في جامعة الملك فهد.
+خلال مرحلتي الجامعية تطرقت لعلم تحليل البيانات في الكثير من المشاريع، مما حثني على التعمق في مجال تحليل البيانات وتعلم الأدوات المختلفة التي تساعدني على فهم البيانات، وقد اصبحت عضوا في مجتمع المنطقة الشرقية لتحليل البيانات لمساعدة ونشر ثقافة تحليل البيانات.
+    gender: M
+    social:
+        email: Khaled.r.madany@gmail.com
+        website:
+        twitter:
+        github:
+        linkedin: khalid-madani-44b92a1a2
+    gravatar:
+
+juman:
+    display_name: جمان التويجري
+    about: طالبة بكالوريوس نظم المعلومات الحاسوبية في جامعة الإمام عبدالرحمن بن فيصل. مهتمة بمجال تحليل البيانات و بالأثر الاجتماعي للبيانات الضخمة. مؤمنة أن نشر الوعي بفوائد تحليل البيانات لغير المتخصص سيساعد برفع جودة الحياة، وهذا ما أسعى لتحقيقه.
+    gender: F
+    social:
+        email: Jumanaltuwaijri@gmail.com
+        website:
+        twitter: juman_mt
+        github:
+        linkedin: juman-a-56a808178
     gravatar:

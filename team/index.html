@@ -2,33 +2,36 @@
 layout: page
 title: اعضاء فريق مجتمع الشرقية للبيانات
 permalink: /team/
-members: [najla, ali, areej, Abdulelah, ghaidaa, abdullah, abdulmalik, najwa, hadeel]
 ---
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <div id="names">
-    {% for m in page.members %}
-    {% assign member = site.data.team[m] %}
-    <div id="name-box">
-        {% if member.gravatar %}
-          <div id="name-info">
-            {% else %}
-        <div id="name-info-noavatar">
-          {% endif %}
-            <div id="member-name">{{ member.display_name }}</div>
-            <div id="social-member">
-                {% if member.social.linkedin %} <a target="_blank" href="https://www.linkedin.com/in/{{ author.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
-                {% if member.social.github %} <a target="_blank" href="https://github.com/{{ member.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
-                {% if member.social.twitter %} <a target="_blank" href="https://twitter.com/{{ member.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
-                {% if member.social.email %} <a target="_blank" href="mailto:{{ member.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
-                {% if amember.social.website %} <a target="_blank" href="{{ member.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
-            </div>
-            <div id="about-member">{{ member.about }}</div>
+    {% for m in site.data.team %}
+        <div id="name-box">
+        {% for n in m %}
+            {% assign member = site.data.team[n] %}
+            
+                {% if member.gravatar %}
+                <div id="name-info">
+                    {% else %}
+                <div id="name-info-noavatar">
+                {% endif %}
+                    <div id="member-name">{{ member.display_name }}</div>
+                    <div id="social-member">
+                        {% if member.social.linkedin %} <a target="_blank" href="https://www.linkedin.com/in/{{ member.social.linkedin }}" ><i class="fa fa-linkedin-square fa"></i></a> {% endif %}
+                        {% if member.social.github %} <a target="_blank" href="https://github.com/{{ member.social.github }}" ><i class="fa fa-github-square fa"></i></a> {% endif %}
+                        {% if member.social.twitter %} <a target="_blank" href="https://twitter.com/{{ member.social.twitter }}" ><i class="fa fa-twitter-square fa"></i></a> {% endif %}
+                        {% if member.social.email %} <a target="_blank" href="mailto:{{ member.social.email }}" ><i class="fa fa-envelope-square fa"></i></a> {% endif %}
+                        {% if member.social.website %} <a target="_blank" href="{{ member.social.website }}" ><i class="fa fa-external-link-square fa"></i></a> {% endif %}
+                    </div>
+                    <div id="about-member">{{ member.about }}</div>
+                </div>
+                    {% if member.gravatar %}
+                <div id="member-image-box">
+                    <img itemprop="image" id="image-member" src="{{ site.baseurl }}/images/gravatar/{{ member.gravatar }}">
+                </div>
+                {% endif %}
+            {% endfor %}
         </div>
-            {% if member.gravatar %}
-        <div id="member-image-box">
-            <img itemprop="image" id="image-member" src="{{ site.baseurl }}/images/authors/{{ member.gravatar }}">
-        </div>
-        {% endif %}
-    </div>
     {% endfor %}
 </div>
