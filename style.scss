@@ -128,10 +128,10 @@ ol, ul {
 ul {
   > li:before {
     content: "•";
-    padding-right: $ul-bullets-right-space;
+    margin-right: -0.8em;
     font-family: $ul-bullets-font;
     font-size: $ul-bullets-font-size;
-    line-height: $ul-bullets-font-line-height;
+    line-height: 0.9;
   }
 }
 
