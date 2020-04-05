@@ -10,7 +10,11 @@
 <div class="w3-card-2">
     <div id="author-content-page">
             <div id="author-box">
-                <div id="author-page-info">
+                {% if author.gravatar %}
+              <div id="author-page-info">
+                  {% else %}
+              <div id="author-page-info-noavatar">
+              {% endif %}
                     <div itemprop="author" id="name-author">
                         <h2 id="author-name">{{ author.display_name }}</h2>
                     </div>
