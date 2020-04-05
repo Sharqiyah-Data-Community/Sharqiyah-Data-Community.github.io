@@ -34,6 +34,6 @@ permalink: /contact/
         <input type="file" name="file">
     </div>
     <hr>
-    <button style="float: left;" type="submit" class="btn btn-secondary">إرسال</button>
+    <button type="submit" class="btn btn-secondary">إرسال</button>
 </div>
 </form>
