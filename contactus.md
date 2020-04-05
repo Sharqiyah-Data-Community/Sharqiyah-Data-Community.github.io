@@ -17,7 +17,7 @@ permalink: /contact/
     </div>
     <div class="form-group">
         <label>نوع الرسالة:</label>
-        <select class="form-control" name="platform" required="required">
+        <select class="form-control" name="Category" required="required">
             <option>نشر مقال</option>
             <option>إقتراح</option>
             <option>شكوى</option>
@@ -27,7 +27,7 @@ permalink: /contact/
     <hr>
     <div class="form-group mt-3">
         <label>رسالتك:</label>
-<br><textarea type="text" name="name" class="form-control" required="required" rows="7"></textarea>
+<br><textarea type="text" name="message" class="form-control" required="required" rows="7"></textarea>
     </div>
     <div class="form-group mt-3">
         <label class="mr-2">إرفاق ملف:</label><br>
