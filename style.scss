@@ -820,18 +820,28 @@ margin-top: 0.5em;
   overflow: hidden;
 }
 
+.form-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .form-control {
 	display: block;
 	width: 100%;
 	padding: .375rem .75rem;
 	font-size: 1rem;
 	line-height: 1.5;
-  color: #495057;
+  	color: #495057;
 	background-color: #fff;
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
-	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	margin: 0.5rem 0 1rem 0;
+
+  @include mobile {
+	padding: .2rem .75rem;
+  }
 }
 
 .form-control::-ms-expand {
@@ -908,6 +918,8 @@ select.form-control:focus::-ms-value {
 	font-size: 1rem;
 	line-height: 1.5;
 	border-radius: .25rem;
+	font-family: $body-font-family;
+  	float: left;
 	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -1015,4 +1027,9 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-secondary.dropdown-toggle:focus {
 	box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+}
+
+
+input, select {
+  font-family: $body-font-family;
 }
