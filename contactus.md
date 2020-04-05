@@ -26,7 +26,7 @@ permalink: /contact/
     <hr>
     <div class="form-group mt-3">
         <label>رسالتك</label>
-        <br><textarea type="text" name="name" class="form-control" required="required" rows=7></textarea>
+<br><textarea type="text" name="name" class="form-control" required="required" rows=7></textarea>
     </div>
     <div class="form-group mt-3">
         <label class="mr-2">إرفاق ملف:</label>
