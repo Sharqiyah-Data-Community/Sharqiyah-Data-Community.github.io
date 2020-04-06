@@ -34,6 +34,34 @@ permalink: /contact/
         <input type="file" name="file">
     </div>
     <hr>
-    <button type="submit" class="btn btn-secondary">إرسال</button>
+        <button type="submit" class="btn btn-secondary">إرسال</button>
+    <p class="success">تم الإرسال.</p>
+    <p class="fail">حصل خطأ بالإرسال، فضلًا حاول مرةً ثانية.</p>
 </div>
 </form>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+<script type="text/javascript">
+$(".formID").submit(function(e){
+  e.preventDefault();
+  var action = $(this).attr("action");
+  $.ajax({
+    type: "POST",
+    url: action,
+    crossDomain: true,
+    data: new FormData(this),
+    dataType: "json",
+    contentType: "multipart/form-data",
+    processData: false,
+    contentType: false,
+    headers: {
+      "Accept": "application/json"
+    }
+  }).done(function() {
+     $(".success").addClass("is-active");
+     $(".fail").removeClass("is-active");
+  }).fail(function() {
+     $(".fail").addClass("is-active");
+     $(".success").removeClass("is-active");
+  });
+});
+</script>
