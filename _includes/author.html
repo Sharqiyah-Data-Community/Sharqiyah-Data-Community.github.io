@@ -4,11 +4,13 @@
     <div id="author-content">
         {% if page.author %}
             {% if page.author.size == 1 %}
-                    {% if {{site.data.authors[0].gender}} == "F" %}
+                {% for a in page.author  %}
+                    {% if {{site.data.authors[a].gender}} == "F" %}
                         <h2>الكاتبة</h2>
                     {% else %}
                         <h2>الكاتب</h2>
                     {% endif %}
+        {% endfor %}
             {% else %}
                 <h2>الكُتَّاب</h2>
             {% endif %}
