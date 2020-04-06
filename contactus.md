@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 <!-- https://medium.com/getform-all-about/how-to-add-a-contact-form-to-your-jekyll-website-6c61e811bdee -->
 
-<form accept-charset="UTF-8" action="https://getform.io/f/1ebf002f-3f03-4db0-9862-25181f55a94d" method="POST" enctype="multipart/form-data" target="_blank">
+<form accept-charset="UTF-8" action="https://getform.io/f/1ebf002f-3f03-4db0-9862-25181f55a94d" method="POST" enctype="multipart/form-data" target="_blank" class="formID">
 <div class="form-box">
     <div class="form-group">
         <div class="form-group">
