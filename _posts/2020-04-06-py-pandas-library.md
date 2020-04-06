@@ -35,11 +35,11 @@ author: [areej]
 [هنا رابط لتحميل ملف البيانات.](https://docs.google.com/spreadsheets/d/1VJNvRycV4T--Zjq915b0TCeo1C0FZZx9xaUdU2OJ9Fk/edit) من خلال هذه البيانات سنبدأ بتطبيق بعض التحليلات البسيطة لإدراك وفهم كيفية عمل المكتبة
 بداية هنالك أنواع مختلفة  لملفات البيانات:
 
-١- ملفات CVS 
+1. ملفات CVS 
 
-٢- من خلال رابط
+2. من خلال رابط
 
-٣- من خلال قاعدة بيانات
+3. من خلال قاعدة بيانات
 
 ##### سنتطرق اولًا الى ملفات CVS ( ملفات الأكسل )
 
@@ -78,11 +78,11 @@ df = pd.DataFrame(cur.fetchall())
 ## فهم البيانات
 الأسطر التالية تمكن المحلل من:
 
-١- استعراض الصفوف والأعمدة الأولى من البيانات
+1. استعراض الصفوف والأعمدة الأولى من البيانات
 
-٢- رؤية بعض الإحصائيات التي تخص البيانات
+2. رؤية بعض الإحصائيات التي تخص البيانات
 
-٣-  تصنيف البيانات
+3.  تصنيف البيانات
 ```python
 # 1. shows you a gist of the data
 df.head()
@@ -130,12 +130,12 @@ df.loc[row_index_to_select]
 
 بالمثال:
 
-١- أستخدم العمود Total لإستعراض البيانات المطلوبة
+1. أستخدم العمود Total لإستعراض البيانات المطلوبة
  ```python
 df[df["Total"] > 200000]
 ```
 
-٢-  العامودين Total  و Country 
+2. العامودين Total  و Country 
  ```python
 df[(df["Total"] > 200000) & (df["Country"] == "UK")]
 ```
@@ -187,6 +187,6 @@ df.groupby(["Country", "Region"]).agg(
 
 ## المصادر
 
-[Get Started With Pandas In 5 mins](https://medium.com/bhavaniravi/python-pandas-tutorial-92018da85a33) written by Bhavani Ravi
+1. [Get Started With Pandas In 5 mins](https://medium.com/bhavaniravi/python-pandas-tutorial-92018da85a33) written by Bhavani Ravi
 
 
