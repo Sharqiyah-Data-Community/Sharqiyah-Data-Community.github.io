@@ -39,7 +39,7 @@ permalink: /contact/
     <p class="fail">حصل خطأ بالإرسال، فضلًا حاول مرةً ثانية.</p>
 </div>
 </form>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script type="text/javascript">
 $(".formID").submit(function(e){
   e.preventDefault();
   var action = $(this).attr("action");
