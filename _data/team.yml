@@ -170,3 +170,64 @@ juman:
         github:
         linkedin: juman-a-56a808178
     gravatar:
+
+
+bushra:
+    display_name: بشرى السليم
+    about:
+    gender: F
+    social:
+        email:
+        website:
+        twitter:
+        github:
+        linkedin:
+    gravatar:
+
+nouf:
+    display_name: نوف العمرو
+    about:
+    gender: F
+    social:
+        email:
+        website:
+        twitter:
+        github:
+        linkedin:
+    gravatar:
+
+salem:
+    display_name: سالم الحمادي
+    about:
+    gender: M
+    social:
+        email:
+        website:
+        twitter:
+        github:
+        linkedin:
+    gravatar:
+
+fatima:
+    display_name: فاطمة السلمان
+    about:
+    gender: F
+    social:
+        email:
+        website:
+        twitter:
+        github:
+        linkedin:
+    gravatar:
+
+nouf_2:
+    display_name: نوف العليوي
+    about:
+    gender: F
+    social:
+        email:
+        website:
+        twitter:
+        github:
+        linkedin:
+    gravatar:
