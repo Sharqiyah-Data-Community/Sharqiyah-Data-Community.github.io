@@ -1128,8 +1128,13 @@ input, select {
     @include mobile {
     float: none;
       width: 100%;
+	height: auto;
       img {
-        width: 75%;
+    margin:auto;
+    width: 75%; 
+    max-width: 75%; 
+    height: auto;
+    object-fit: cover;
       }
     }
     img {
@@ -1137,7 +1142,6 @@ input, select {
       width: 90%;
     }
   }
-}
 
 .about-heading {
   border-radius: 6px;
