@@ -1106,37 +1106,31 @@ input, select {
     }
   }
 
+    .about-text {
+    width: 65%;
+    float: right;
+    @include mobile {
+      width: 100%;
+    }
+  }
+
   .about-img {
     width: 35%;
     height: 50%;
     float: left;
     padding: 2em 0;
-    text-align: center;
-    vertical-align: baseline;
     display: flex;
 
     -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 
-    -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
     @include mobile {
     float: none;
     height: 50%;
       width: 100%;
       img {
         width: 75%;
-	      height: auto;
       }
     }
     img {
