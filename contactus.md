@@ -17,7 +17,7 @@ permalink: /contact/
     </div>
     <div class="form-group">
         <label>نوع الرسالة:</label>
-        <select class="form-control" name="Category" required="required">
+        <select class="form-control" id="unhidden_if_post" name="Category" required="required">
             <option value ="0">نشر مقال</option>
             <option value ="1">إقتراح</option>
             <option value ="2">شكوى</option>
@@ -72,7 +72,7 @@ $(".formID").submit(function(e){
 });
 </script>
 <script>
-document.getElementById('test').addEventListener('change', function () {
+document.getElementById('unhidden_if_post').addEventListener('change', function () {
     var style = this.value == 0 ? 'block' : 'none';
     document.getElementById('hidden_div').style.display = style;
 });
