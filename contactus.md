@@ -18,8 +18,8 @@ permalink: /contact/
     <div class="form-group">
         <label>نوع الرسالة:</label>
         <select class="form-control" id="unhidden_if_post" name="Category" required="required">
-            <option value ="0">نشر مقال</option>
-            <option value ="1">إقتراح</option>
+            <option value ="0">إقتراح</option>
+            <option value ="1">نشر مقال</option>
             <option value ="2">شكوى</option>
             <option value ="3">أخرى</option>
         </select>
@@ -73,7 +73,7 @@ $(".formID").submit(function(e){
 </script>
 <script>
 document.getElementById('unhidden_if_post').addEventListener('change', function () {
-    var style = this.value == 0 ? 'block' : 'none';
+    var style = this.value == 1 ? 'block' : 'none';
     document.getElementById('hidden_div').style.display = style;
 });
 </script>
