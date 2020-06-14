@@ -18,11 +18,18 @@ permalink: /contact/
     <div class="form-group">
         <label>نوع الرسالة:</label>
         <select class="form-control" name="Category" required="required">
-            <option>نشر مقال</option>
-            <option>إقتراح</option>
-            <option>شكوى</option>
-            <option>أخرى</option>
+            <option value ="0">نشر مقال</option>
+            <option value ="1">إقتراح</option>
+            <option value ="2">شكوى</option>
+            <option value ="3">أخرى</option>
         </select>
+    </div>
+    <div id="hidden_div" style="display: none;">
+        <label>قواعد عامة لنشر المقال:</label>
+        <li>كتابة المقال باللغة العربية.</li>
+        <li>يجب ان يحتوى على اكثر من٤٠٠ كلمة.</li>
+        <li>ان يدعم المقال بالصور والمرئيات.</li>
+        <li>الحاق المقالة بالمصادر.</li>
     </div>
     <hr>
     <div class="form-group mt-3">
@@ -62,5 +69,11 @@ $(".formID").submit(function(e){
      $(".fail").addClass("is-active");
      $(".success").removeClass("is-active");
   });
+});
+</script>
+<script>
+document.getElementById('test').addEventListener('change', function () {
+    var style = this.value == 0 ? 'block' : 'none';
+    document.getElementById('hidden_div').style.display = style;
 });
 </script>
