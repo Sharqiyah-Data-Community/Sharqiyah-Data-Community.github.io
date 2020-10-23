@@ -1200,8 +1200,6 @@ align-content: center;
 
 .fields {
   .box {
-    width: 20%;
-
     @include mobile {
       width: auto;
     }
