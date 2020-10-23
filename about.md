@@ -3,7 +3,7 @@ layout: page
 title:
 permalink: /about/
 ---
-<div class="about-title">عن مجتمع الشرقية للبيانات</div>
+<div class="about-title">عن المجموعة السعودية للبيانات</div>
 
 <div class="who-box">
 <div class="about-heading">من نحن؟</div>
