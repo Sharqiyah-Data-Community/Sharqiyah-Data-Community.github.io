@@ -1,2 +1,2 @@
-# Sharqiyah Data Community Blog
+# Namat Blog
 
